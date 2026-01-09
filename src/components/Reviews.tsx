@@ -10,7 +10,7 @@ const reviews = [
 
 export default function Reviews() {
     return (
-        <section className="relative py-32 bg-brand-black overflow-hidden">
+        <section className="relative py-20 md:py-32 bg-brand-black overflow-hidden">
             {/* Background Texture */}
             <div className="absolute inset-0 z-0">
                 <img

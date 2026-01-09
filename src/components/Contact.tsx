@@ -1,9 +1,9 @@
 import { motion } from 'framer-motion';
-import { Phone, MessageSquare, ArrowRight } from 'lucide-react';
+import { Phone, MessageSquare, ArrowRight, Send } from 'lucide-react';
 
 export default function Contact() {
     return (
-        <section className="relative min-h-[80vh] flex items-center bg-brand-obsidian overflow-hidden">
+        <section className="relative min-h-[80vh] py-20 md:py-32 flex items-center bg-brand-obsidian overflow-hidden">
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
@@ -23,7 +23,7 @@ export default function Contact() {
                         className="w-full md:w-1/2"
                     >
                         <span className="text-brand-gold font-mono text-sm tracking-widest uppercase mb-4 block">Reservation</span>
-                        <h2 className="text-5xl md:text-7xl font-serif text-white mb-8 leading-none">
+                        <h2 className="text-4xl md:text-7xl font-serif text-white mb-8 leading-none">
                             Start Your<br />
                             <span className="text-gray-500">Night Out.</span>
                         </h2>
@@ -79,6 +79,22 @@ export default function Contact() {
                                 <div className="flex flex-col text-left">
                                     <span className="text-xs uppercase tracking-widest opacity-60">Message Us</span>
                                     <span className="text-xl font-bold font-serif">문자 문의하기</span>
+                                </div>
+                            </div>
+                            <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />
+                        </a>
+
+                        <a
+                            href="https://t.me/hscompanyshs"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="group w-full md:w-auto min-w-[300px] px-8 py-6 border border-white/20 hover:border-brand-gold bg-black/50 backdrop-blur-md text-white hover:text-brand-gold transition-all duration-300 flex justify-between items-center"
+                        >
+                            <div className="flex items-center gap-4">
+                                <Send className="w-6 h-6" />
+                                <div className="flex flex-col text-left">
+                                    <span className="text-xs uppercase tracking-widest opacity-60">Telegram</span>
+                                    <span className="text-xl font-bold font-serif">텔레그램 문의</span>
                                 </div>
                             </div>
                             <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform duration-300" />

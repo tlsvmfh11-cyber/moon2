@@ -38,7 +38,7 @@ export default function Hero() {
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1.2, delay: 0.2, ease: "circOut" }}
-                    className="text-6xl md:text-9xl font-black tracking-tighter text-white mb-6 drop-shadow-2xl"
+                    className="text-5xl md:text-9xl font-black tracking-tighter text-white mb-6 drop-shadow-2xl"
                 >
                     GANGNAM<br />
                     <span className="text-gradient-gold">DALTO</span>

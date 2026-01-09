@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 export default function Intro() {
     return (
-        <section className="relative py-32 bg-brand-obsidian overflow-hidden">
+        <section className="relative py-20 md:py-32 bg-brand-obsidian overflow-hidden">
             <div className="max-w-7xl mx-auto px-6 relative z-10">
                 {/* Section 1: Image Left, Text Right */}
                 <div className="flex flex-col md:flex-row items-center gap-16 mb-40">

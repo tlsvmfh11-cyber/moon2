@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="py-24 bg-brand-obsidian border-t border-white/5 relative z-10">
+        <footer className="pt-16 pb-32 md:py-24 bg-brand-obsidian border-t border-white/5 relative z-10">
             <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-end">
                 <div>
                     <h2 className="text-4xl font-serif text-white mb-6">GANGNAM DALTO</h2>

@@ -3,7 +3,7 @@ import { Check } from 'lucide-react';
 
 export default function Pricing() {
     return (
-        <section className="py-32 bg-brand-obsidian relative overflow-hidden flex items-center">
+        <section className="py-20 md:py-32 bg-brand-obsidian relative overflow-hidden flex items-center">
             {/* Background Image / Texture */}
             <div className="absolute inset-0 z-0">
                 <img

@@ -31,7 +31,7 @@ const steps = [
 
 export default function System() {
     return (
-        <section className="relative py-32 bg-brand-charcoal overflow-hidden">
+        <section className="relative py-20 md:py-32 bg-brand-charcoal overflow-hidden">
             {/* Background with Overlay */}
             <div className="absolute inset-0 z-0">
                 <img
