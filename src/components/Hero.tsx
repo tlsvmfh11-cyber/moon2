@@ -34,15 +34,19 @@ export default function Hero() {
                     </span>
                 </motion.div>
 
-                <motion.h1
+                {/* SEO H1 - 검색엔진용 */}
+                <h1 className="sr-only">강남 달토 | 달리는토끼 하이퍼블릭 가라오케 가격·시스템 안내</h1>
+
+                <motion.div
                     initial={{ opacity: 0, scale: 0.95 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 1.2, delay: 0.2, ease: "circOut" }}
                     className="text-5xl md:text-9xl font-black tracking-tighter text-white mb-6 drop-shadow-2xl"
+                    aria-hidden="true"
                 >
                     GANGNAM<br />
                     <span className="text-gradient-gold">DALTO</span>
-                </motion.h1>
+                </motion.div>
 
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
