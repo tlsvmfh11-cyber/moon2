@@ -1,0 +1,78 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-black: #050505;
+  --color-brand-obsidian: #0a0a0a;
+  --color-brand-charcoal: #141414;
+
+  /* Reduced neon, added Gold & Deep Purple */
+  --color-brand-gold: #c5a059;
+  --color-brand-gold-dim: #8a6d36;
+  --color-brand-purple: #4c1d95;
+  --color-brand-purple-light: #8b5cf6;
+
+  --color-brand-silver: #e2e8f0;
+  --color-brand-chrome: #ffffff;
+
+  --font-pretendard: 'Pretendard', sans-serif;
+
+  --animate-pulse-slow: pulse 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  --shadow-gold: 0 0 15px rgba(197, 160, 89, 0.3), 0 0 30px rgba(197, 160, 89, 0.1);
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    background-color: var(--color-brand-black);
+  }
+
+  body {
+    background-color: var(--color-brand-black);
+    color: var(--color-brand-silver);
+    font-family: var(--font-pretendard);
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+  }
+
+  ::selection {
+    background-color: var(--color-brand-gold);
+    color: var(--color-brand-black);
+  }
+}
+
+@layer utilities {
+  .text-glow-gold {
+    text-shadow: 0 0 15px rgba(197, 160, 89, 0.4), 0 0 30px rgba(197, 160, 89, 0.2);
+  }
+
+  .border-glow-gold {
+    box-shadow: 0 0 5px rgba(197, 160, 89, 0.3), inset 0 0 5px rgba(197, 160, 89, 0.1);
+  }
+
+  .glass-panel {
+    background: rgba(20, 20, 20, 0.6);
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+  }
+
+  .glass-card {
+    background: linear-gradient(145deg, rgba(30, 30, 30, 0.4) 0%, rgba(10, 10, 10, 0.6) 100%);
+    backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+  }
+
+  .text-gradient-gold {
+    background: linear-gradient(to right, #fbf7e7 0%, #c5a059 40%, #8a6d36 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .chrome-text {
+    background: linear-gradient(to bottom, #ffffff 0%, #a0a0a0 50%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+}
