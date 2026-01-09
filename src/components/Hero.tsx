@@ -15,7 +15,7 @@ export default function Hero() {
             >
                 <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/20 to-brand-black z-10" />
                 <img
-                    src="/hero-bg.png"
+                    src="/hero-bg.jpg"
                     alt="Luxury Interior"
                     className="w-full h-[120%] object-cover opacity-80"
                 />

@@ -14,7 +14,7 @@ export default function Intro() {
                     >
                         <div className="relative aspect-[4/5] overflow-hidden rounded-lg">
                             <img
-                                src="/intro-detail.png"
+                                src="/intro-bg.jpg"
                                 alt="Premium Service"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             />
@@ -61,7 +61,7 @@ export default function Intro() {
                     >
                         <div className="relative aspect-[4/5] overflow-hidden rounded-lg">
                             <img
-                                src="/intro-promise.png"
+                                src="/reviews-bg.jpg"
                                 alt="Private Service"
                                 className="w-full h-full object-cover hover:scale-105 transition-transform duration-700"
                             />

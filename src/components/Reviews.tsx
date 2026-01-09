@@ -14,7 +14,7 @@ export default function Reviews() {
             {/* Background Texture */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/reviews-bg.png"
+                    src="/reviews-bg.jpg"
                     alt="Luxury Texture"
                     className="w-full h-full object-cover opacity-40 mix-blend-overlay"
                 />

@@ -7,7 +7,7 @@ export default function Contact() {
             {/* Background Image */}
             <div className="absolute inset-0 z-0">
                 <img
-                    src="/contact-bg.png"
+                    src="/contact-bg.jpg"
                     alt="Reception Lounge"
                     className="w-full h-full object-cover opacity-60"
                 />
